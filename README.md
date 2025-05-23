@@ -12,8 +12,8 @@ O site tem como objetivo servir como base de testes e futuras implementações p
 
 > ⚠️ Este site está em fase de testes. Mudanças podem acontecer com frequência.
 
-## 🚀 Tecnologias usadas
+## 🛠 Tecnologias usadas
 
 - HTML / CSS / JavaScript / React
 
-## 🛠 Como rodar localmente
+
