@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+body {
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+
+}
+
+header { 
+ background: rgb(91,28,228);
+  color: #fff;
+  padding: 10px;
+}
+#logo{
+padding: 20px;
+  width:100px;
+}
+
+
+.container{
+          
+   background: rgb(75, 12, 211);
+background: linear-gradient(180deg, rgba(91,28,228,1) 44%, rgba(9,9,9,1) 100%);
+  margin: 0 auto;
+ height: 3300px;
+}
+.container .titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.container .titulo .tituloid{
+  width: 40%;
+}
+.container .titulo .tituloidd{
+  width: 30%;
+}
+.container .titulo h2{
+  color: white;
+  font-size: 50px;
+  text-shadow: 0px 4px 1px black;
+}
+.container .about{
+ padding-top: 100px;
+  display: flex;
+justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+
+}
+.container .about h2{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+}
+.container .about p{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+   text-shadow: 0px 2px 0px black;
+
+  padding-left: 10px;
+}
+.container #imgabout{
+  width: 400px;
+  background: none;
+  border-radius: 30px;
+}
+.container .about--minecraft{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+
+}
+.container .about--minecraft p{
+  color: white;
+  text-shadow: 0px 2px 0px black;
+  font-size: 23px;
+}
+.container .about--minecraft h2{
+  color: white;
+  text-shadow: 0px 4px 0px black;
+
+  font-size: 30px;
+}
+#img-minecraft{
+  width: 60vw;
+  border-radius: 10px;
+}
+.container--sobre div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  
+}
+.container--sobre p{
+  color: white;
+    font-size: 24px;
+    text-shadow: 0px 2px 0px black;
+    margin: 30px;
+
+
+  font-size: 23px;
+}
+.container--sobre span{
+  display: flex;
+    color: white;
+    font-size: 24px;
+    text-shadow: 0px 2px 0px black;
+ padding: 20px;
+  margin-right: 100px;
+  
+  font-size: 23px;
+
+}
+ .container--sobre h2{
+  
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-shadow: 0px 4px 0px black;
+
+ }
+ #sobre-img{
+  width: 200px;
+  height: 200px;
+border-radius: 20px;
+
+
+
+
+
+ }
+.container--apoiadores{
+  display: flex;
+  padding: 10px;
+text-align: center;
+
+flex-direction: column;
+color: white;
+
+}
+.container--apoiadores h1{
+    font-size: 40px;
+    
+    text-shadow: 0px 4px 0px black;
+}
+.container--apoiadores .web {
+  display: flex;
+
+  flex-direction: row;
+  text-align: center;
+
+}
+.container--apoiadores .web  span{
+  padding-top: 100px;
+  padding-left: 20px;
+  font-size: 40px;
+}
+#img-tiago{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding-left: 60px;
+}
+.fale--conosco{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.fale--conosco h1{
+  color: white;
+  font-size: 40px;
+  text-shadow: 0px 5px 0px black;
+}
+.fale--conosco p{
+  color: white;
+  font-size: 30px;
+}
+.fale--conosco label{
+  color: white;
+  font-size: 23px;
+}
+.fale--conosco input{
+  display: flex;
+  margin: 20px;
+  border-radius: 5px;
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.fale--conosco button{
+  width: 200px;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  border: none;
+border-radius: 10px;
+}
+.fale--conosco button:hover {
+  background-color: #b233a2;
+  color: white;
+}
+footer{
+    display: flex;
+      justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  height: 100px;
+  background-color: blueviolet;
+  flex-direction: row-reverse;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+}
+footer a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+footer img{
+  display: flex;
+
+  width: 50px;
+}
+
+
+
+/*Responsividades*/
+@media(max-width:1300px){
+  .container{
+    height: 3000px;
+  }
+}
+@media(max-width: 1100px){
+  .container{
+    height: 3700px;
+  }
+}
+@media(max-width: 1000px){
+  .container .titulo{
+    flex-direction: column;
+  }
+ .container .titulo .tituloid{
+  width: 60%;
+  min-width: 500px;
+  }
+  .container .titulo .tituloidd{
+width: 60%;
+  min-width: 500px;
+  }
+  .container{
+    height: 3100px;
+  }
+}
+@media(max-width: 800px){
+  .container .about{
+   
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  }
+  @media(max-width:680px){
+    .container{
+      height: 3400px;
+    }
+  }
+  @media(max-width: 500px){
+    .container .titulo .tituloid{
+  width: 60%;
+  min-width: 300px;
+  }
+   .container .titulo .tituloidd{
+width: 60%;
+  min-width: 300px;
+  }
+
+.container{
+   background: rgb(91,28,228);
+background: linear-gradient(180deg, rgba(91,28,228,1) 44%, rgba(9,9,9,1) 100%);
+  margin: 0 auto;
+ height: 3300px;
+}
+
+.container--sobre p{
+  color: white;
+    font-size: 20px;
+    text-shadow: 0px 2px 0px black;
+}
+.container #imgabout{
+  width: 300px;
+  background: none;
+  border-radius: 30px;
+}
+.fale--conosco input{
+  display: flex;
+  margin: 20px;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 20px;
+  padding: 5px;
+}
+  }
+
+  ::-webkit-scrollbar{
+    width: 10px;
+   background: rgb(91,28,228);
+background: linear-gradient(180deg, rgba(91,28,228,1) 44%, rgba(9,9,9,1) 100%);
+
+  }
+   ::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 71, 71);
+   }
